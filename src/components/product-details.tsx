@@ -13,7 +13,7 @@ interface ProductDetailsProps {
 
 export const ProductDetails: FC<ProductDetailsProps> = ({ product }) => {
   return (
-    <DialogContent className="flex justify-center">
+    <DialogContent className="flex justify-center p-10">
       <div className="w-[120px] h-[120px] shrink-0">
         <img src={product.image} alt={product.title} />
       </div>
@@ -21,11 +21,13 @@ export const ProductDetails: FC<ProductDetailsProps> = ({ product }) => {
         <DialogHeader>
           <DialogTitle>{product.title}</DialogTitle>
           <DialogDescription>
-            ${product.price.toFixed(2)} ⭐️ {product.rating.rate}/5 de{" "}
-            {product.rating.count} avaliações
+          {product.description}
           </DialogDescription>
         </DialogHeader>
-        <p>{product.description}</p>
+        <p>
+          ${product.price.toFixed(2)} ⭐️ {product.rating.rate}/5 de{" "}
+            {product.rating.count} avaliações
+        </p>
       </div>
     </DialogContent>
   );

@@ -38,7 +38,7 @@ export const ProductList: FC = () => {
             onClick={() => setSelectedProduct(product)}
           >
             <article className="flex-grow">
-              <Card className="flex">
+              <Card className="flex hover:bg-rose-50 active:bg-rose-100">
                 <div className="flex shrink-0 justify-center w-[120px] h-[120px] p-4">
                   <img
                     className="object-contain"
