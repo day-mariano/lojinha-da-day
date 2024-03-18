@@ -13,4 +13,4 @@ Projeto de e-commerce consumindo uma API do módulo 6 do curso da Ada Tech.
 - [Fake Store API](https://fakestoreapi.com/)
 
 ## 🚀 Produção
-- [Lojinha da Day](https://fakestoreapi.com/)
+- [Lojinha da Day](https://lojinha-da-day.vercel.app/)
